@@ -12,6 +12,8 @@
  * @version 1.0
  *
  */
+package depositocombustible;
+
 public class DepositoCombustible {
 
     private double depMax;
