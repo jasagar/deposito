@@ -17,13 +17,14 @@ public class DepositoConsumirTestParametrizado {
 		nive = niv;
 	}
 	
+	@Parameters
 	public static Collection<Object[]> valores(){
 		return Arrays.asList(new Object[][] {{40.0,10.0},{2.0,48.0},{-20.0,70.0}});		
 	}
 
 	@Test
 	public void testConsumir() {
-		DepositoCombustible deposito = new DepositoCombustible(50.0,0.0);
+		DepositoCombustible deposito = new DepositoCombustible(50.0,50.0);
 		deposito.consumir(consumido);
 		double nivel = deposito.getDepositoNivel();
 		assertEquals(nive, nivel, 1);

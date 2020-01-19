@@ -17,6 +17,7 @@ public class DepositoFillTestParametrizado {
 		nive = niv;
 	}
 	
+	@Parameters
 	public static Collection<Object[]> valores(){
 		return Arrays.asList(new Object[][] {{40.0,40.0},{2.0,2.0},{-20.0,-20.0}});
 	}
