@@ -2,6 +2,7 @@ package depositocombustible;
 
 import static org.junit.Assert.*;
 
+
 import org.junit.Test;
 
 public class DepositoCombustibleTest {
@@ -44,16 +45,6 @@ public class DepositoCombustibleTest {
 		double mit = 25.0;
 		double mitad = deposito.getDepositoMax() / 2;
 		assertEquals(mit, mitad, 1);
-	}
-
-	@Test
-	public void testFill() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testConsumir() {
-		fail("Not yet implemented");
 	}
 
 }
