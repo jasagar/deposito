@@ -8,7 +8,10 @@ public class DepositoCombustibleTest {
 
 	@Test
 	public void testGetDepositoNivel() {
-		fail("Not yet implemented");
+		DepositoCombustible deposito = new DepositoCombustible(50.0,0.0);
+		Double niv = 0.0;
+		Double nivel = deposito.getDepositoNivel();
+		assertEquals(niv, nivel);
 	}
 
 	@Test
